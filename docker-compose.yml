@@ -21,7 +21,7 @@ services:
       mongo_atnaUrl: "mongodb://mongo-db/openhim-development"
       NODE_ENV: "development"
     ports:
-      - "8081:8080"
+      - "8080:8080"
       - "5000:5000"
       - "5001:5001"
     networks:
